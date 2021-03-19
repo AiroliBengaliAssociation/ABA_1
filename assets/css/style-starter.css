@@ -9698,7 +9698,7 @@ p.white {
 .btn-style {
   padding: 13px 35px;
   font-size: 18px;
-  line-height: 28px;
+  line-height: 20px;
   font-weight: 600;
   transition: 0.3s ease-in;
   border-radius: var(--border-radius); }
@@ -9779,7 +9779,7 @@ p.white {
 @media (max-width: 384px) {
   .btn-white,
   .btn-style {
-    padding: 12px 26px; }
+   padding: 12px 26px; }
   .title-big {
     font-size: 26px !important;
     line-height: 34px; } }
@@ -10339,19 +10339,24 @@ nav ul li a:hover {
   color: #fff;
   font-size: 55px;
   line-height: 60px;
-  margin-bottom: 40px; }
+  Padding-left: 70px; 
+  margin-top:20px; 
+  margin-bottom:20px; }
 
 .w3l-main-slider .banner-info-bg h5 span {
   font-weight: 400; }
 
 .w3l-main-slider .banner-info-bg p {
   color: #fff;
-  font-weight: 300;
+  font-weight: 400;
   text-transform: uppercase;
   line-height: 30px;
-  font-size: 16px;
-  margin-bottom: 6px;
-  letter-spacing: 1px; }
+  font-size: 18px;
+  margin-top:70px;
+  letter-spacing: 1px; 
+  Padding-left: 70px; 
+  Padding-top:90px; 
+}
 
 a.view {
   font-size: 17px;
@@ -11486,7 +11491,7 @@ h4.title {
     font-size: 20px;
     font-weight: 600;
     color: var(--heading-color);
-    padding: 0;
+    padding: 50px;
     margin: 0; }
   .right-side .btn-text:hover {
     color: var(--primary-color); }
